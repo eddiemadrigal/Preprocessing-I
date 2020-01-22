@@ -147,12 +147,31 @@ body {
   font-display: swap;
   src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
 }
-h1 {
+@font-face {
+  font-family: 'Shadows Into Light';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Shadows Into Light'), local('ShadowsIntoLight'), url(https://fonts.gstatic.com/s/shadowsintolight/v9/UqyNK9UOIntux_czAvDQx_ZcHqZXBNQzdcD8.ttf) format('truetype');
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 4rem;
+  font-family: 'Shadows Into Light', cursive;
+  margin: 3% auto;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.5rem;
 }
 ul li {
-  font-size: 1.6rem;
   padding: 2%;
 }
 nav ul {
@@ -161,5 +180,13 @@ nav ul {
 }
 p,
 li {
+  font-size: 1.6rem;
   font-family: 'Montserrat', sans-serif;
+}
+section.header-images {
+  display: flex;
+  justify-content: space-between;
+}
+p.article {
+  text-align: center;
 }
