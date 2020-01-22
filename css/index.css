@@ -139,7 +139,7 @@ html {
   font-size: 62.5%;
 }
 .container {
-  margin: 2% 10% 5%;
+  margin: 2% 10% 0;
   padding-bottom: 3%;
   border: 3px solid lightblue;
   border-style: none none solid solid;
@@ -191,6 +191,14 @@ ul li {
 nav ul {
   display: flex;
   justify-content: flex-end;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+footer p {
+  text-align: center;
+  margin-bottom: 3%;
 }
 p,
 li {
