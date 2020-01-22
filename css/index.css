@@ -204,3 +204,6 @@ section.three-column {
 .about-my-work article {
   padding: 4%;
 }
+article ul li {
+  width: 200px;
+}
