@@ -137,8 +137,10 @@ body {
 html {
   font-size: 62.5%;
 }
-body {
+.container {
   margin: 2% 10%;
+  border: 3px solid lightblue;
+  border-style: none none none solid;
 }
 @font-face {
   font-family: 'Montserrat';
@@ -185,7 +187,7 @@ li {
 }
 section.header-images {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 p.article {
   text-align: center;
