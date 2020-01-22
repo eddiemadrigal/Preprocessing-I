@@ -138,7 +138,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  margin: 2%;
+  margin: 2% 10%;
 }
 h1 {
   text-align: center;
@@ -146,7 +146,9 @@ h1 {
 }
 ul li {
   font-size: 1.6rem;
+  padding: 2%;
 }
 nav ul {
   display: flex;
+  justify-content: flex-end;
 }
