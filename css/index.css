@@ -139,9 +139,10 @@ html {
   font-size: 62.5%;
 }
 .container {
-  margin: 2% 10%;
+  margin: 2% 10% 5%;
+  padding-bottom: 3%;
   border: 3px solid lightblue;
-  border-style: none none none solid;
+  border-style: none none solid solid;
 }
 @font-face {
   font-family: 'Montserrat';
