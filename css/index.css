@@ -140,6 +140,13 @@ html {
 body {
   margin: 2% 10%;
 }
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
 h1 {
   text-align: center;
   font-size: 2rem;
@@ -151,4 +158,8 @@ ul li {
 nav ul {
   display: flex;
   justify-content: flex-end;
+}
+p,
+li {
+  font-family: 'Montserrat', sans-serif;
 }
