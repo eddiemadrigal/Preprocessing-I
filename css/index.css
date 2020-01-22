@@ -178,6 +178,13 @@ h3 {
 h4 {
   font-size: 2rem;
 }
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  text-decoration: underline;
+}
 ul li {
   padding: 2%;
 }
@@ -196,6 +203,10 @@ article.header-images {
 }
 p.article {
   text-align: center;
+}
+p.main-img-attribution {
+  text-align: center;
+  margin-bottom: 1%;
 }
 section.three-column {
   display: flex;
